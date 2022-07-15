@@ -1,0 +1,57 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap'); /* Skranji */
+
+/* Global rules */
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+/* Left Side */
+#side-image{
+    width: 40vw;
+    height: 100vh;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0.082);
+    height: 100px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 700px;
+    gap: 20px;
+}
+
+#odin{
+    width: 100px;
+    height: 100px;
+}
+
+#odin-title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Skranji', 'cursive';
+}
+
+#credit{
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 250px;
+}
+
+/* Right Side */
+.right{
+    position: relative;
+    left: 50vw;
+    bottom: 100vh;
+    right: 10vw;
+}
+
+label,
+input {
+    
+}
